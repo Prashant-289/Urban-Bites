@@ -1,17 +1,18 @@
-import React from 'react'
-import './Header.css'
+import React from "react";
+import "./Header.css";
 
 const Header = () => {
-  return (
-    <div className='header'>
-        <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>In the next part we will make the back-end and admin panel of this food delivery website / web app. We will make the project full stack with the help of MongoDB, Express, React and Node JS. </p>
-            <button>View Menu</button>
+    return (
+        <div className="header">
+            <div className="header-contents">
+                <h2>Order your favourite food here</h2>
+                <p>
+                    Craving something delicious? Explore a wide variety of dishes from different cuisines, freshly prepared and delivered right to your doorstep. Fast, easy, and convenient – your next meal is just a click away!{" "}
+                </p>
+                <button>View Menu</button>
+            </div>
         </div>
-    
-    </div>
-  )
-}
+    );
+};
 
-export default Header
+export default Header;
